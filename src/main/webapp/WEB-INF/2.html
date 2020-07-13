@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>2</title>
+    <script>
+
+    </script>
+    <style>
+        .body{
+            width: 100%;
+        }
+        .header{
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        .column {
+            float: left;
+            width: 25%;
+            background-color: aliceblue;
+            text-align: center;
+            height: 300px;
+        }
+
+        /* 左右两侧宽度 */
+        .column.side {
+            width: 25%;
+            background-color: aqua;
+            text-align: center;
+            height: 300px;
+        }
+
+        /* 中间区域宽度 */
+        .column.middle {
+            width: 50%;
+            background-color: bisque;
+            text-align: center;
+            height: 300px;
+        }
+        /* 底部样式 */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 15px;
+            text-align: center;
+        }
+        /* 响应式布局 - 宽度小于600px时设置上下布局 */
+        </style>
+</head>
+<body>
+<div class="body">
+         <div class="header">
+             <h1>头部区域</h1>
+             <p>重置浏览器大小查看效果。</p>
+         </div>
+
+         <div>
+             <a href="1.html">链接</a>
+             <a download="3.jpg" href="3.jpg">下载图片</a>
+             <a href="3.jpg">查看图片</a>
+         </div>
+
+         <div class="row">
+             <div class="column ">
+                 <h2>左侧栏</h2>
+             </div>
+             <div class="column middle">
+                 <h2>主区域内容</h2>
+                 <p></p>
+                 <p></p>
+             </div>
+
+             <div class="column side">
+                 <h2>右侧栏</h2>
+                 <p></p>
+             </div>
+         </div>
+    <div>
+        <a href="#">链接</a>
+        <a href="#">链接</a>
+        <a href="#">链接</a>
+    </div>
+         <div class="footer">
+             <h2>底部区域</h2>
+             <p></p>
+         </div>
+</div>
+</body>
+</html>
